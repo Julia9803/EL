@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-img:url(img/main_win_bg.png);" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="gui.MainWinControllor" >
+  <children>
+    <Group id="Group" layoutX="786.0" layoutY="309.0">
+      <children>
+        <Button fx:id="startBtn" onAction="#onStartBtnClick" layoutX="71.0" layoutY="68.0" mnemonicParsing="false" prefHeight="46" prefWidth="118.0" text="START" textAlignment="CENTER">
+          <font>
+            <Font name="Bauhaus 93" size="25.0" fx:id="x1" />
+          </font>
+        </Button>
+        <Button font="$x1" layoutX="0.0" layoutY="0.0" mnemonicParsing="false" prefHeight="46" prefWidth="118.0" text="START" textAlignment="CENTER" />
+        <Button font="$x1" layoutX="0.0" layoutY="139.0" mnemonicParsing="false" prefHeight="46" prefWidth="118.0" text="START" textAlignment="CENTER" />
+      </children>
+    </Group>
+    <Button id="exitBtn" layoutX="28.0" onAction="#onExitBtnClick" layoutY="700" mnemonicParsing="false" text="" />
+  </children>
+</AnchorPane>
