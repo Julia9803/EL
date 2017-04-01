@@ -23,6 +23,16 @@ public class Block extends Button{
 		this.setStyle("-fx-background-color:"+this.color+";");
 	}
 	
+	public void setSelected() {
+		this.setStyle("-fx-background-color:"+this.color+";"
+				+"-fx-effect: dropshadow(gaussian,rgba(255,255,255,1),8,0.8,0,0) ;");
+		//"-fx-effect: dropshadow(gaussian,rgba(255,255,255,0.8),8,0.8,0,0) ;"
+		/*"-fx-border-color: rgba(255,255,255,0.8);"
+				+ "-fx-border-width: 5;"
+				+ "-fx-border-style: dotted ;")
+				*/
+	}
+	
 	
 	//colorµÄget set
 	public String getColor() {return this.color;}

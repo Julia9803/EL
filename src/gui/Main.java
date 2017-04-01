@@ -33,7 +33,7 @@ public class Main extends Application{
 		
 		//LevelWin level=new LevelWin();
 		
-		//GameWin game=new GameWin();
+		GameWin game=new GameWin();
 		
 		
 	}

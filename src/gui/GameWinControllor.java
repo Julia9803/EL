@@ -46,6 +46,10 @@ public class GameWinControllor {
 			y=i/10;
 			
 			Block btn=new Block(x,y);
+			btn.getStyleClass().add("block");
+			btn.setOnMouseClicked(e->{
+				btn.setSelected();
+			});
 			BlockManager.blocks.add(btn);
 			BlockManager.setBlockBacdgroundColor(btn);
 			
