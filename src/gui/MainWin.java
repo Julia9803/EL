@@ -2,6 +2,7 @@ package gui;
 
 import java.io.IOException;
 
+import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -18,6 +19,7 @@ public class MainWin extends Stage{
 	
 	public MainWin() {
 		// TODO Auto-generated constructor stub
+
 		try {
 			root=FXMLLoader.load(getClass().getResource("MainWin.fxml"));
 			Scene scene=new Scene(root,1200,800);

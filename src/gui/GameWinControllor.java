@@ -18,7 +18,7 @@ public class GameWinControllor {
 	
 	@FXML void initialize(){
 		createBlocks();
-		BlockManager.blocks.clear();
+
 	}
 	
 //	@FXML void onExitBtnClick(){
@@ -31,30 +31,37 @@ public class GameWinControllor {
 		blockGridPan.setPrefHeight(600);
 		blockGridPan.setVgap(10);
 		blockGridPan.setHgap(10);
-		
+
 		int x,y;
 		
 		for(int i=0;i<100;i++){
-//			Button btn=new Button();
-//			btn.setMinSize(60, 60);
-//			btn.setStyle(
-//					"-fx-background-image:url(img/exit_hover.png) ;-fx-background-color: transparent ;"
-//					);
-			//btn.setBackground(new Background(new BackgroundImage(new Image("img\\star\\1.png"), BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT)));
-			
 			x=i%10;
 			y=i/10;
-			
 			Block btn=new Block(x,y);
 			btn.getStyleClass().add("block");
 			btn.setOnMouseClicked(e->{
-				btn.setSelected();
+				if(btn.getIsPressed()==false){
+					btn.setIsPressed(true);
+					btn.setSelected();
+					BlockManager.addBlocksToList(btn);//加入到两个两块的list
+					System.out.println(btn.getColor()+":"+btn.getX()+","+btn.getY());
+				}
+				if(BlockManager.twoBlocks.size()==2){
+					BlockManager.exchange();
+				}
 			});
-			BlockManager.blocks.add(btn);
+			String key=x+","+y;
+			System.out.println(key);
+			BlockManager.blocks[x][y]=btn;
+
+
+			//BlockManager.blockHashMap.replace()
+
+			//BlockManager.blocks.add(btn);
 			BlockManager.setBlockBacdgroundColor(btn);
-			
-			
-			blockGridPan.add(btn, x, y);			
+			blockGridPan.add(btn, x, y);
 		}
+
+		//BlockManager.blocks.toArray(BlockManager.blocksList);
 	}
 }

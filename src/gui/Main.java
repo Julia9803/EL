@@ -2,7 +2,9 @@ package gui;
 
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application{
@@ -11,8 +13,9 @@ public class Main extends Application{
 	public void start(Stage stage) throws Exception {
 		// TODO Auto-generated method stub
 	
-		
-		
+
+
+
 		//´ò¿ª»¶Ó­´°¿Ú
 		Platform.runLater(new Runnable() {			
 			@Override
