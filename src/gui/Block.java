@@ -7,10 +7,12 @@ import javafx.scene.layout.BackgroundImage;
 public class Block extends Button{
 
 	//private int[] position=new int[2];
+	public int fallDownGap=0;
 	private int x;
 	private  int y;//存储行列信息
 	private String color="red";
 	private boolean isPressed=false;//记录方块是否被按下
+	private boolean erased=false;//是否已经被消除
 
 	public Block(int x,int y) {
 		// TODO Auto-generated constructor stub
@@ -67,4 +69,10 @@ public class Block extends Button{
 		return  this.isPressed;
 	}
 
+	public boolean getErased(){
+		return this.erased;
+	}
+	public void setErased(Boolean state){
+		this.erased=state;
+	}
 }

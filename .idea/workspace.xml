@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7219021b-39db-45c3-ad0f-98c17406f109" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/Block.class" afterPath="$PROJECT_DIR$/bin/gui/Block.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/BlockManager.class" afterPath="$PROJECT_DIR$/bin/gui/BlockManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/GameWinControllor.class" afterPath="$PROJECT_DIR$/bin/gui/GameWinControllor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/Main$1.class" afterPath="$PROJECT_DIR$/bin/gui/Main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/Main.class" afterPath="$PROJECT_DIR$/bin/gui/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/MainWin.class" afterPath="$PROJECT_DIR$/bin/gui/MainWin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/MainWinControllor.class" afterPath="$PROJECT_DIR$/bin/gui/MainWinControllor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/gui/levelwin.css" afterPath="$PROJECT_DIR$/bin/gui/levelwin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/gui/BlockManagerOld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EL/gui/Block.class" afterPath="$PROJECT_DIR$/out/production/EL/gui/Block.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EL/gui/BlockManager$1.class" afterPath="$PROJECT_DIR$/out/production/EL/gui/BlockManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EL/gui/BlockManager.class" afterPath="$PROJECT_DIR$/out/production/EL/gui/BlockManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/EL/gui/GameWinControllor.class" afterPath="$PROJECT_DIR$/out/production/EL/gui/GameWinControllor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/Block.java" afterPath="$PROJECT_DIR$/src/gui/Block.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/BlockManager.java" afterPath="$PROJECT_DIR$/src/gui/BlockManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/GameWinControllor.java" afterPath="$PROJECT_DIR$/src/gui/GameWinControllor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/Main.java" afterPath="$PROJECT_DIR$/src/gui/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainWin.java" afterPath="$PROJECT_DIR$/src/gui/MainWin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainWinControllor.java" afterPath="$PROJECT_DIR$/src/gui/MainWinControllor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/levelwin.css" afterPath="$PROJECT_DIR$/src/gui/levelwin.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,36 +40,33 @@
       <file leaf-file-name="BlockManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="187" column="33" lean-forward="true" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+            <state relative-caret-position="182">
+              <caret line="155" column="10" lean-forward="false" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
                 <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-                <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-                <element signature="e#4076#4266#0" expanded="true" />
-                <element signature="e#4265#4266#0" expanded="true" />
-                <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+                <element signature="method#erasable#0;class#BlockManager#0" expanded="true" />
+                <element signature="e#4302#4439#0" expanded="true" />
+                <element signature="e#4372#4373#0" expanded="false" />
+                <element signature="e#4428#4429#0" expanded="false" />
+                <element signature="e#4438#4439#0" expanded="true" />
+                <element signature="method#fadeOut#0;class#BlockManager#0" expanded="true" />
+                <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
+                <element signature="method#getFallDownBlocks#0;class#BlockManager#0" expanded="true" />
+                <element signature="method#fallDown#0;class#BlockManager#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/Block.java">
+      <file leaf-file-name="BlockManagerOld.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+            <state relative-caret-position="6604">
+              <caret line="254" column="12" lean-forward="false" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Block#0;class#Block#0" expanded="true" />
-                <element signature="method#setSelected#0;class#Block#0" expanded="true" />
-                <element signature="method#getColor#0;class#Block#0" expanded="false" />
-                <element signature="method#setColor#0;class#Block#0" expanded="false" />
+                <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,32 +75,28 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameWin.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/GameWin.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1040">
+              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Block#0;class#Block#0" expanded="true" />
+                <element signature="method#setSelected#0;class#Block#0" expanded="true" />
+                <element signature="method#getColor#0;class#Block#0" expanded="false" />
+                <element signature="method#setColor#0;class#Block#0" expanded="false" />
+                <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,16 +104,25 @@
       <file leaf-file-name="GameWinControllor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/GameWinControllor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="520">
+              <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+                <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+                <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,6 +141,9 @@
         <option value="$PROJECT_DIR$/src/gui/MainWinControllor.java" />
         <option value="$PROJECT_DIR$/src/gui/Main.java" />
         <option value="$PROJECT_DIR$/src/gui/GameWin.fxml" />
+        <option value="$PROJECT_DIR$/src/BlockManager.java" />
+        <option value="$PROJECT_DIR$/src/gui/SomethingToTest.java" />
+        <option value="$PROJECT_DIR$/src/gui/BlockManagerOld.java" />
         <option value="$PROJECT_DIR$/src/gui/Block.java" />
         <option value="$PROJECT_DIR$/src/gui/GameWinControllor.java" />
         <option value="$PROJECT_DIR$/src/gui/BlockManager.java" />
@@ -157,7 +158,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="width" value="1936" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
@@ -207,16 +209,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs.jest.jest_package" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ALUGitHub/ALU" />
   </component>
   <component name="RunDashboard">
@@ -651,6 +653,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7219021b-39db-45c3-ad0f-98c17406f109" name="Default" comment="" />
@@ -667,12 +672,22 @@
       <workItem from="1491486926875" duration="634000" />
       <workItem from="1491558086176" duration="467000" />
       <workItem from="1491565710111" duration="1139000" />
-      <workItem from="1491720711600" duration="7257000" />
+      <workItem from="1491720711600" duration="7422000" />
+      <workItem from="1491733299497" duration="6690000" />
+      <workItem from="1491793881288" duration="946000" />
+      <workItem from="1491802222591" duration="221000" />
+      <workItem from="1491828262960" duration="10249000" />
+      <workItem from="1491870177919" duration="134000" />
+      <workItem from="1491876346609" duration="5006000" />
+      <workItem from="1491911950124" duration="945000" />
+      <workItem from="1491913021591" duration="12097000" />
+      <workItem from="1491973902039" duration="6541000" />
+      <workItem from="1492063298114" duration="544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23890000" />
+    <option name="totallyTimeSpent" value="67428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,27 +699,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1936" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -716,6 +730,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +741,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -735,93 +750,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Block#0;class#Block#0" expanded="true" />
-            <element signature="method#setSelected#0;class#Block#0" expanded="true" />
-            <element signature="method#getColor#0;class#Block#0" expanded="false" />
-            <element signature="method#setColor#0;class#Block#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/GameWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWinControllor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="57" column="61" lean-forward="true" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
           <folding>
             <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -836,6 +782,9 @@
             <element signature="method#setSelected#0;class#Block#0" expanded="true" />
             <element signature="method#getColor#0;class#Block#0" expanded="false" />
             <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -844,26 +793,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,26 +820,18 @@
           <caret line="55" column="78" lean-forward="false" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
           <folding>
             <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -907,6 +846,9 @@
             <element signature="method#setSelected#0;class#Block#0" expanded="true" />
             <element signature="method#getColor#0;class#Block#0" expanded="false" />
             <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,13 +861,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainWin.java">
@@ -946,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,26 +897,27 @@
           <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,22 +928,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1016,6 +948,9 @@
             <element signature="method#setSelected#0;class#Block#0" expanded="true" />
             <element signature="method#getColor#0;class#Block#0" expanded="false" />
             <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1028,13 +963,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainWinControllor.java">
@@ -1048,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,6 +992,8 @@
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1076,22 +1012,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1106,6 +1032,9 @@
             <element signature="method#setSelected#0;class#Block#0" expanded="true" />
             <element signature="method#getColor#0;class#Block#0" expanded="false" />
             <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1117,22 +1046,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1147,6 +1066,9 @@
             <element signature="method#setSelected#0;class#Block#0" expanded="true" />
             <element signature="method#getColor#0;class#Block#0" expanded="false" />
             <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1173,13 +1095,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainWin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://D:/软工/EL比赛/SE2-myHotel-master/HotelBookingSystem/client/src/main/java/org/client/presentation/customer/Customer_Guide.java">
@@ -1210,73 +1132,244 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="91" column="25" lean-forward="false" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/GameWin.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/GameWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state relative-caret-position="13676">
+          <caret line="853" column="0" lean-forward="false" selection-start-line="853" selection-start-column="0" selection-end-line="853" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Block#0;class#Block#0" expanded="true" />
-            <element signature="method#setSelected#0;class#Block#0" expanded="true" />
-            <element signature="method#getColor#0;class#Block#0" expanded="false" />
-            <element signature="method#setColor#0;class#Block#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/GameWinControllor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="e#0#54151#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#ArrayList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#6252#6253#0" expanded="false" />
+            <element signature="e#6320#6321#0" expanded="false" />
+            <element signature="method#ArrayList#2;class#ArrayList#0" expanded="false" />
+            <element signature="method#trimToSize#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#ensureCapacity#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#ensureCapacityInternal#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#ensureExplicitCapacity#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#grow#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#hugeCapacity#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#10189#10190#0" expanded="false" />
+            <element signature="e#10216#10217#0" expanded="false" />
+            <element signature="e#10398#10399#0" expanded="false" />
+            <element signature="e#10430#10431#0" expanded="false" />
+            <element signature="e#10907#10908#0" expanded="false" />
+            <element signature="e#10945#10946#0" expanded="false" />
+            <element signature="method#indexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#lastIndexOf#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#clone#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#13541#13542#0" expanded="false" />
+            <element signature="e#13596#13597#0" expanded="false" />
+            <element signature="method#toArray#1;class#ArrayList#0" expanded="false" />
+            <element signature="e#15414#15415#0" expanded="false" />
+            <element signature="e#15459#15460#0" expanded="false" />
+            <element signature="method#get#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#add#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#add#1;class#ArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#remove#1;class#ArrayList#0" expanded="false" />
+            <element signature="method#fastRemove#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#clear#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#addAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#addAll#1;class#ArrayList#0" expanded="false" />
+            <element signature="method#removeRange#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#rangeCheck#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#rangeCheckForAdd#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#24549#24550#0" expanded="false" />
+            <element signature="e#24603#24604#0" expanded="false" />
+            <element signature="method#removeAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#retainAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#batchRemove#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#writeObject#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#readObject#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#listIterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#30347#30348#0" expanded="false" />
+            <element signature="e#30384#30385#0" expanded="false" />
+            <element signature="e#30684#30685#0" expanded="false" />
+            <element signature="e#30716#30717#0" expanded="false" />
+            <element signature="e#31041#31042#0" expanded="false" />
+            <element signature="e#31086#31087#0" expanded="false" />
+            <element signature="method#remove#0;class#Itr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#Itr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#checkForComodification#0;class#Itr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#ListItr#0;class#ListItr#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#33262#33263#0" expanded="false" />
+            <element signature="e#33304#33305#0" expanded="false" />
+            <element signature="e#33338#33339#0" expanded="false" />
+            <element signature="e#33375#33376#0" expanded="false" />
+            <element signature="e#33413#33414#0" expanded="false" />
+            <element signature="e#33454#33455#0" expanded="false" />
+            <element signature="method#previous#0;class#ListItr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#ListItr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#add#0;class#ListItr#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#subList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#subListRangeCheck#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#SubList#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#set#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#get#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#size#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#add#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#remove#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#removeRange#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#38943#38944#0" expanded="false" />
+            <element signature="e#38994#38995#0" expanded="false" />
+            <element signature="method#addAll#1;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#39436#39437#0" expanded="false" />
+            <element signature="e#39481#39482#0" expanded="false" />
+            <element signature="method#listIterator#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#39886#39887#0" expanded="false" />
+            <element signature="e#39960#39961#0" expanded="false" />
+            <element signature="method#next#0;class#39690:44151" expanded="false" />
+            <element signature="e#40600#40601#0" expanded="false" />
+            <element signature="e#40658#40659#0" expanded="false" />
+            <element signature="method#previous#0;class#39690:44151" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#39690:44151" expanded="false" />
+            <element signature="e#42227#42228#0" expanded="false" />
+            <element signature="e#42280#42281#0" expanded="false" />
+            <element signature="e#42326#42327#0" expanded="false" />
+            <element signature="e#42383#42384#0" expanded="false" />
+            <element signature="method#remove#0;class#39690:44151" expanded="false" />
+            <element signature="method#set#0;class#39690:44151" expanded="false" />
+            <element signature="method#add#0;class#39690:44151" expanded="false" />
+            <element signature="method#checkForComodification#0;class#39690:44151" expanded="false" />
+            <element signature="method#subList#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#rangeCheck#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#rangeCheckForAdd#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#44775#44776#0" expanded="false" />
+            <element signature="e#44842#44843#0" expanded="false" />
+            <element signature="method#checkForComodification#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#spliterator#0;class#SubList#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#forEach#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#46390#46391#0" expanded="false" />
+            <element signature="e#46455#46456#0" expanded="false" />
+            <element signature="method#ArrayListSpliterator#0;class#ArrayListSpliterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#getFence#0;class#ArrayListSpliterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#trySplit#0;class#ArrayListSpliterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#tryAdvance#0;class#ArrayListSpliterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#ArrayListSpliterator#0;class#ArrayList#0" expanded="false" />
+            <element signature="e#51499#51500#0" expanded="false" />
+            <element signature="e#51557#51558#0" expanded="false" />
+            <element signature="e#51597#51598#0" expanded="false" />
+            <element signature="e#51690#51691#0" expanded="false" />
+            <element signature="method#removeIf#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#replaceAll#0;class#ArrayList#0" expanded="false" />
+            <element signature="method#sort#0;class#ArrayList#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="187" column="33" lean-forward="true" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+        <state relative-caret-position="208">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#2123#2124#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
             <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="method#vSearch#0;class#BlockManager#0" expanded="true" />
-            <element signature="e#4076#4266#0" expanded="true" />
-            <element signature="e#4265#4266#0" expanded="true" />
-            <marker date="1491728723973" expanded="true" signature="3449:3515" ph="{...}" />
+            <element signature="method#erasable#0;class#BlockManager#0" expanded="true" />
+            <element signature="e#4302#4439#0" expanded="true" />
+            <element signature="e#4372#4373#0" expanded="false" />
+            <element signature="e#4428#4429#0" expanded="false" />
+            <element signature="e#4438#4439#0" expanded="true" />
+            <element signature="method#fadeOut#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#getFallDownBlocks#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#fallDown#0;class#BlockManager#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/SomethingToTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManagerOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6604">
+          <caret line="254" column="12" lean-forward="false" selection-start-line="254" selection-start-column="12" selection-end-line="254" selection-end-column="12" />
+          <folding>
+            <marker date="1491914768025" expanded="true" signature="5494:5637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Block#0;class#Block#0" expanded="true" />
+            <element signature="method#setSelected#0;class#Block#0" expanded="true" />
+            <element signature="method#getColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setColor#0;class#Block#0" expanded="false" />
+            <element signature="method#setPosition#0;class#Block#0" expanded="true" />
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/GameWinControllor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="method#initialize#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#createBlocks#0;class#GameWinControllor#0" expanded="true" />
+            <element signature="method#refresh#0;class#GameWinControllor#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/BlockManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="155" column="10" lean-forward="false" selection-start-line="155" selection-start-column="10" selection-end-line="155" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setBlockBacdgroundColor#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#hSearch#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#erasable#0;class#BlockManager#0" expanded="true" />
+            <element signature="e#4302#4439#0" expanded="true" />
+            <element signature="e#4372#4373#0" expanded="false" />
+            <element signature="e#4428#4429#0" expanded="false" />
+            <element signature="e#4438#4439#0" expanded="true" />
+            <element signature="method#fadeOut#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#exchange#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#getFallDownBlocks#0;class#BlockManager#0" expanded="true" />
+            <element signature="method#fallDown#0;class#BlockManager#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1287,6 +1380,17 @@
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

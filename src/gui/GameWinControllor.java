@@ -1,14 +1,7 @@
 package gui;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundImage;
-import javafx.scene.layout.BackgroundPosition;
-import javafx.scene.layout.BackgroundRepeat;
-import javafx.scene.layout.BackgroundSize;
 import javafx.scene.layout.GridPane;
 
 public class GameWinControllor {
@@ -43,11 +36,16 @@ public class GameWinControllor {
 				if(btn.getIsPressed()==false){
 					btn.setIsPressed(true);
 					btn.setSelected();
-					BlockManager.addBlocksToList(btn);//加入到两个两块的list
+					BlockManager.twoBlocks.add(btn);//加入到两个两块的list
 					System.out.println(btn.getColor()+":"+btn.getX()+","+btn.getY());
+				}else {
+					btn.setIsPressed(false);
+					btn.setNotSelected();
+					BlockManager.twoBlocks.remove(btn);
 				}
 				if(BlockManager.twoBlocks.size()==2){
-					BlockManager.exchange();
+					BlockManager.exchange(blockGridPan);
+					//refresh();
 				}
 			});
 			String key=x+","+y;
@@ -55,13 +53,33 @@ public class GameWinControllor {
 			BlockManager.blocks[x][y]=btn;
 
 
-			//BlockManager.blockHashMap.replace()
+			//BlockManagerOld.blockHashMap.replace()
 
-			//BlockManager.blocks.add(btn);
+			//BlockManagerOld.blocks.add(btn);
 			BlockManager.setBlockBacdgroundColor(btn);
 			blockGridPan.add(btn, x, y);
 		}
 
-		//BlockManager.blocks.toArray(BlockManager.blocksList);
+		//BlockManagerOld.blocks.toArray(BlockManagerOld.blocksList);
 	}
+
+
+
+	public  void refresh(){
+		blockGridPan.getChildren().removeAll();
+		for(Block block[] : BlockManager.blocks){
+			for(Block block1 : block){
+				//blockGridPan
+				if(block1.getErased()){
+					BlockManager.setBlockBacdgroundColor(block1);
+					block1.setErased(false);
+				}
+				blockGridPan.add(block1, block1.getX(),block1.getY());
+			}
+		}
+	}
+
+//	public  void addBlockToGridPane(Block block){
+//
+//	}
 }
